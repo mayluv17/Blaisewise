@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.form-wrap{
+	width: 600px;
+	margin-top: 80px;
+}
+#signIn{
+	background-color: #000;
+	border-color: black;
+	
+}
+
+.form-wrap .form-control{
+	padding: 16px inherit;
+	margin-top: 8px;
+}
+#signup-btn{
+	width: 80%;
+	margin: auto;
+	background-color: #000;
+	border-color: black;
+	
+}
+#loading{
+	width: 80%;
+	margin: auto;
+	background-color: #414141;
+	border-color: black;
+}
+@media (max-width: 991.98px) {
+	
+.form-wrap{
+	width: 300px;}
+}
+.alert-danger {
+    color: #fff;
+    background-color: #CC0407;
+    border-color: #f5c6cb;
+	border-radius: 2px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}

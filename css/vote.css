@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.breadcrumb{
+	padding: 40px;
+	background-color: #000;
+	background-image: url(../img/fou2019.png) !important;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom center;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	
+}
+
+.right-card{
+	padding: 20px 44px;
+	background-color: #000;
+}
+.left-card{
+	background-color: black;
+	background-image: url(../img/ppix/bg.jpg);
+	background-size: cover;
+	background-position: center bottom;
+}
+
+.label{
+	font-weight: 800;
+font-size: 14px;
+color: #A17846;
+letter-spacing: 0;
+}
+.valu{
+	font-weight: 800;
+font-size: 28px;
+color: #FFFFFF;
+}
+.progress {
+	border-radius: 0;
+}
+
+.cp{
+font-weight: 400;
+font-size: 44px;
+color: #FFFFFF;
+	display: inline;
+}
+
+.vt-btn {margin-top: 14px ;
+margin-right: auto;
+margin-left: auto;}
+.alert-danger {
+    color: #fff;
+    background-color: #CC0407;
+    border-color: #f5c6cb;
+	border-radius: 2px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.alert-success {
+	border-radius: 2px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+@media (max-width: 991.98px) {
+.left-card{
+	background-color: black;
+	background-image: url(../img/banner1.png);
+	background-size: cover;
+	background-position: center bottom;
+	height: 400px;
+}
+	
+	#cp{font-size: 24px;}
+
+}
